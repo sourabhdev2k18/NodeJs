@@ -1,0 +1,30 @@
+To Run server.js
+
+launch git bash in you directory where you have put server.js file in local
+
+node server.js
+
+--------------------------
+
+How to push in GIT repository
+
+1) Create a new repository on git
+2) Open Git Bash
+3) Change the current working directory 
+4) Initialize the local directory as a Git repository
+ - git init
+5) Add files into your local repository and stage them
+ - git add .
+ 
+  to unstage 
+  - git reset HEAD YOUR-FILE .
+
+6) Commit the files that you have staged in your local repository
+  - git commit -m "First commit"
+  
+7) Copy git repository URL
+  - git reomote add origin 'remote repository name'
+  - git remote -v
+  
+ 8) Push the changes in GITHub
+  - git push origin master  
